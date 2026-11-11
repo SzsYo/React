@@ -5,7 +5,7 @@ const multiplicar = (a, b) => a * b;
 
 const dividir = (a, b) => {
   if (b === 0) {
-    return "Error: no se puede dividir entre cero";
+    return "Error: no se puede dividir por cero";
   }
   return a / b;
 };
